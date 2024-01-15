@@ -43,7 +43,7 @@ public class ExampleTest {
         // 6. The difficulty level of the game is set to 1.
         // 7. The performance test will evaluate if the agent can win at least 50% (0.5) of its games.
 		PerformanceTest.test(myAgent).random(55).color("red")
-				.matches(10).timeout(500).level(1).run(0.5);
+				.matches(10).timeout(500).level(2).run(0.5);
 		
 
 	}
